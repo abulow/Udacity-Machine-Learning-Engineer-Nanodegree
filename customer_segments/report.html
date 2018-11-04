@@ -19495,15 +19495,14 @@ Name: Explained Variance, dtype: float64
 <li>70.68% of the variance in the data is explained by the first and second principal components.  </li>
 <li>93.11% of the variance in the data is explained by the first four principal components.  </li>
 <li>Dimensions:<ul>
-<li>1: 44.30% explained variance. Most positive variance explained: Frozen. Most negative variance explained: Detergents_Paper. This means that an increase in Dimension 1 corresponds with an increase in Frozen and a decrease in Detergents_Paper.</li>
-<li>2: 26.38% explained variance. Most negative variance explained: Fresh. This means that an increase in Dimension 2 corresponds with a decrease in Fresh.</li>
-<li>3: 12.31% explained variance. Most positive variance explained: Delicatessen. Most negative variance explained: Fresh. This means that an increase in Dimension 3 corresponds with an increase in Delicatessen and a decrease in Fresh.</li>
-<li>4: 10.12% explained explained. Most positive variance explained: Frozen. Most negative variance explained: Delicatessen. This means that an increase in Dimension 4 corresponds with an increase in Frozen and a decrease in Delicatessen.</li>
-<li>5: 4.85% explained variance. Most positive variance explained: Milk. Most negative variance explained: Detergents_Paper. This means that an increase in Dimension 5 corresponds with an increase in Milk and a decrease in Detergents_Paper.</li>
-<li>6: 2.04% explained variance. Most positive variance explained: Grocery. Most negative variance explained: Milk. This means that an increase in Dimension 6 corresponds with an increase in Grocery and a decrease in Milk.</li>
+<li>1: 44.30% explained variance. An increase in the first principal component corresponds with a decrease in Milk, Grocery and Detergents_Paper. This dimension might represent "Not hotels".</li>
+<li>2: 26.38% explained variance (70.68% cumulative). An increase in the second principal component corresponds with a decrease in Fresh, Frozen and Delicatessen. This dimension might represent "Not restaurants".</li>
+<li>3: 12.31% explained variance (82.99% cumulative). An increase in the third principal component corresponds with a decrease in Fresh and an increase in Delicatessen. This dimension might represent delis.</li>
+<li>4: 10.12% explained explained (93.11% cumulative). An increase in the fourth principal component corresponds with an increase in Frozen and a decrease in Delicatessen. This dimension might represent pharmacies since pharmacies often sell frozen food, but not deli food.</li>
 </ul>
 </li>
 </ul>
+<p>Reference: <a href="https://onlinecourses.science.psu.edu/stat505/node/54/">https://onlinecourses.science.psu.edu/stat505/node/54/</a></p>
 
 </div>
 </div>
