@@ -1,7 +1,7 @@
 # Machine Learning Engineer Nanodegree Capstone Project
   
   
-Python Libraries used: numpy, pandas, sklearn  
+Python Libraries used: numpy, pandas, sklearn, imblearn
   
 Datasets used:  
 1: Fangraphs' career hitting data:  
